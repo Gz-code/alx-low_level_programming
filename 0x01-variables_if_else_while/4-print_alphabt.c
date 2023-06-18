@@ -11,7 +11,7 @@ int main(void)
 	char low, e, q;
 
 	e = 'e';
-	q = 'q'
+	q = 'q';
 
 	for (low = 'a'; low <= 'z'; low++)
 	{

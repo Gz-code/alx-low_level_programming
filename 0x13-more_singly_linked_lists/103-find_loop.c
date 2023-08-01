@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * find_listint_loop - it finds the loop in a linked 
+ * find_listint_loop - it finds the loop in a linked
+ * @head : pointer to the first element
  *
  * Return:Returns the address of the node where the loop started, or NULL
  */
@@ -31,5 +32,3 @@ listint_t *find_listint_loop(listint_t *head)
 
 	return (NULL);
 }
-
-

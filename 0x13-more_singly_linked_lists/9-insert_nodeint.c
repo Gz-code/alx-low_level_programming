@@ -2,6 +2,9 @@
 
 /**
  * insert_nodeint_at_index -it inserts a new node in a linked list,
+ * @head: the pointer to te 1st element
+ * @idx:the index where the new node is added
+ * @n: the data to instert in the new node
  * Return: The pointer to the new node, or NULL
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
